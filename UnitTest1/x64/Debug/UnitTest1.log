@@ -1,0 +1,7 @@
+﻿  UnitTest1.cpp
+     Creating library D:\programyvanya\OOP1.33\x64\Debug\UnitTest1.lib and object D:\programyvanya\OOP1.33\x64\Debug\UnitTest1.exp
+UnitTest1.obj : error LNK2019: unresolved external symbol "public: long __cdecl LongLong::getUpper(void)const " (?getUpper@LongLong@@QEBAJXZ) referenced in function "public: void __cdecl UnitTest1::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@1@QEAAXXZ)
+UnitTest1.obj : error LNK2019: unresolved external symbol "public: long __cdecl LongLong::getLower(void)const " (?getLower@LongLong@@QEBAJXZ) referenced in function "public: void __cdecl UnitTest1::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@1@QEAAXXZ)
+UnitTest1.obj : error LNK2019: unresolved external symbol "public: void __cdecl LongLong::Init(long,long)" (?Init@LongLong@@QEAAXJJ@Z) referenced in function "public: void __cdecl UnitTest1::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@1@QEAAXXZ)
+UnitTest1.obj : error LNK2019: unresolved external symbol "class LongLong __cdecl add(class LongLong,class LongLong)" (?add@@YA?AVLongLong@@V1@0@Z) referenced in function "public: void __cdecl UnitTest1::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@1@QEAAXXZ)
+D:\programyvanya\OOP1.33\x64\Debug\UnitTest1.dll : fatal error LNK1120: 4 unresolved externals
